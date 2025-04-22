@@ -1,0 +1,47 @@
+{
+  "name": "chatgpt-helper",
+  "displayName": "ChatGPT Code Assistant",
+  "description": "Interact with ChatGPT for code review and generation",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "activationEvents": [
+    "onCommand:chatgpt.openChat",
+    "onCommand:chatgpt.reviewCode",
+    "onCommand:chatgpt.setApiKey",
+    "onCommand:chatgpt.deleteApiKey"
+  ],
+  "main": "extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "chatgpt.openChat",
+        "title": "Open ChatGPT Assistant"
+      },
+      {
+        "command": "chatgpt.reviewCode",
+        "title": "Review Code with ChatGPT"
+      },
+      {
+        "command": "chatgpt.setApiKey",
+        "title": "Set OpenAI API Key"
+      },
+      {
+        "command": "chatgpt.deleteApiKey",
+        "title": "Delete OpenAI API Key"
+      }
+    ],
+    "menus": {
+      "editor/context": [
+        {
+          "command": "chatgpt.reviewCode",
+          "when": "editorHasSelection"
+        }
+      ]
+    }
+  },
+  "dependencies": {
+    "axios": "^1.6.0"
+  }
+}
