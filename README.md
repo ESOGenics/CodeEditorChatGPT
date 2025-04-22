@@ -87,7 +87,7 @@ See the [official VS Code publishing guide](https://code.visualstudio.com/api/wo
 
 ## 🛡 License
 
-MIT License © 2025 [Your Name]
+MIT License © 2025 Robert Sexton
 
 ---
 
