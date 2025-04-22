@@ -23,7 +23,7 @@ git clone https://github.com/your-username/chatgpt-vscode-extension.git
 cd chatgpt-vscode-extension
 ```
 
-Or [download the ZIP](https://github.com/your-username/chatgpt-vscode-extension/archive/refs/heads/main.zip) and unzip it.
+Or [download the ZIP](https://github.com/ESOGenics/chatgpt-vscode-extension/archive/refs/heads/main.zip) and unzip it.
 
 ### 2. Open in VS Code
 
