@@ -19,11 +19,11 @@ This VS Code extension integrates ChatGPT directly into your editor, enabling AI
 ### 1. Clone or Download
 
 ```bash
-git clone https://github.com/ESOGenics/CodeEditorChatGPT.git
+git clone https://github.com/ESOGenics/ChatGPTCode-Assistant---VS-Code-Extension.git
 cd chatgpt-vscode-extension
 ```
 
-Or [download the ZIP](https://github.com/ESOGenics/CodeEditorChatGPT/archive/refs/heads/main.zip) and unzip it.
+Or [download the ZIP](https://github.com/ESOGenics/ChatGPTCode-Assistant---VS-Code-Extension/archive/refs/heads/main.zip) and unzip it.
 
 ### 2. Open in VS Code
 
